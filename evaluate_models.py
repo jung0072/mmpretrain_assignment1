@@ -2,7 +2,7 @@ from mmpretrain import get_model
 from mmpretrain import list_models
 import os
 
-list_models()
+print(list_models())
 
 # model_resnet = get_model("custom_resnet", pretrained=True)
 # model_mobile = get_model("custom_mobilenet-v3-small", pretrained=True)
