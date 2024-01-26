@@ -19,7 +19,7 @@ test_pipeline = [
     dict(type="PackInputs"),
 ]
 
-data_root = "../../data/flower_dataset"
+data_root = "./data/flower_dataset"
 train_dataloader = dict(
     batch_size=32,
     dataset=dict(
