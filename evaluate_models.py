@@ -2,7 +2,13 @@ from mmpretrain import get_model
 from mmpretrain import list_models
 import os
 
-print(list_models())
+models = list_models()
+#find model name that has "custom"
+for model in models:
+    if "custom" in model:
+        print(model)
+        break
+
 
 # model_resnet = get_model("custom_resnet", pretrained=True)
 # model_mobile = get_model("custom_mobilenet-v3-small", pretrained=True)
