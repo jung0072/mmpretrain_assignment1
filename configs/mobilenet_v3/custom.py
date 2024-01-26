@@ -42,7 +42,7 @@ test_pipeline = [
     dict(type="CenterCrop", crop_size=224),
     dict(type="PackInputs"),
 ]
-data_root = "/Users/minkijung/Documents/3AISD/Vision/assignment1/data/flower_dataset"
+data_root = "../../data/flower_dataset"
 train_dataloader = dict(
     batch_size=32,
     dataset=dict(
