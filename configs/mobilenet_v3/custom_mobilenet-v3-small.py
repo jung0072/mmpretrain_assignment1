@@ -92,3 +92,5 @@ test_cfg = dict()
 # based on the actual training batch size.
 # base_batch_size = (8 GPUs) x (128 samples per GPU)
 auto_scale_lr = dict(base_batch_size=1024)
+
+train_cfg = dict(by_epoch=True, max_epochs=10, val_interval=10)

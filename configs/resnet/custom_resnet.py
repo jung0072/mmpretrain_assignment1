@@ -51,3 +51,5 @@ test_dataloader = dict(
         _delete_=True,
     )
 )
+
+train_cfg = dict(by_epoch=True, max_epochs=10, val_interval=10)
